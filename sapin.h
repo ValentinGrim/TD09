@@ -1,5 +1,5 @@
 //
-//  main.h
+//  sapin.h
 //  TD09
 //
 //  Created by Valentin Monnot on 06/12/2017.
@@ -7,11 +7,21 @@
 //
 
 
-#ifndef main_h
-#define main_h
+#ifndef sapin_h
+#define sapin_h
 
-#include <stdlib.h>
 #include <stdio.h>
+#include <stdlib.h>
+
+typedef struct sapin
+{
+    
+    int height;
+    int fheight;
+    int fwidth;
+    int prop;
+    
+} conf;
 
 long taille (FILE * stream) //Fonction permettant de connaitre la taille d'un fichier.
 {
@@ -24,5 +34,4 @@ long taille (FILE * stream) //Fonction permettant de connaitre la taille d'un fi
     
 }
 
-
-#endif /* main_h */
+#endif /* sapin_h */
