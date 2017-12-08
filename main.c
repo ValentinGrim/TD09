@@ -3,7 +3,7 @@
 //  TD09
 //
 //  Created by Valentin Monnot on 06/12/2017.
-//  Copyright © 2017 Valentin Monnot. All rights reserved.
+//  ESIEA Laval TD Info.
 //
 
 #include "main.h"
